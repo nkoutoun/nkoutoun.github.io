@@ -1,0 +1,11 @@
+working_papers:
+
+  - title: "Working Paper 1"
+    authors: with Paul Alagidede and Theodore Panagiotidis
+    conference_short: AREF
+    conference: African Review of Economics and Finance <strong>(AREF)</strong>, 2017.
+    pdf: https://african-review.com/view-paper.php?serial=20171210165633-813334
+    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    notes: Barchelor Thesis
