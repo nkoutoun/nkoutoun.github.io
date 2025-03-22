@@ -11,7 +11,7 @@ last_name: Koutounidis
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -35,18 +35,25 @@ profiles:
   - icon: at-symbol
     url: 'mailto:nikolaos.koutounidis@ugent.be'
     label: E-mail Me
-  - icon: at-symbol
-    url: 'mailto:koutounidisn@gmail.com'
-    label: Personal E-mail
-  - icon: brands/phone
-    url: 'tel:+306946060200'
-    label: +30 6946060200
+  - icon: brands/x
+    url: https://x.com/NickKoutounidis
+  - icon: brands/github
+    url: https://github.com/nkoutoun
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/nikolaoskoutounidis/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?hl=en&user=rzQH1HwAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/my-orcid?orcid=0000-0001-7390-1596
+
 
 interests:
   - Empirical Macroeconomics
-  - Monetary Economics & Policy
+  - Household Consumptuon & Finance
   - Oil Markets
-  - Macro-Finance
+  - Applied Econometrics
+  - Monetary Economics & Policy
+  - Fiscal Policy
   - Inequality
 
 education:
