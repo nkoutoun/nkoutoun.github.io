@@ -1,5 +1,5 @@
 # Website Update Handbook (local documentation)
-WEBSITE_UPDATE_HANDBOOK.ipynb
+website_handbook.ipynb
 
 # Hugo build artifacts
 /public/
