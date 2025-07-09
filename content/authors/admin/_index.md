@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD in Economics
+role: PhD in Economics 2025
 
 # Organizations/Affiliations to display in Biography blox
 organizations:

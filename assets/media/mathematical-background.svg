@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d5a87;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#3b82b7;stop-opacity:0.6" />
+    </linearGradient>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4a90c2" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Small dots pattern -->
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#6bb6ff" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#backgroundGradient)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  
+  <!-- Dots overlay -->
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  
+  <!-- Mathematical function curves -->
+  
+  <!-- Sine wave -->
+  <path d="M0,400 Q150,300 300,400 T600,400 T900,400 T1200,400" 
+        fill="none" stroke="#87ceeb" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Cosine wave (shifted) -->
+  <path d="M0,350 Q150,450 300,350 T600,350 T900,350 T1200,350" 
+        fill="none" stroke="#5f9ea0" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Exponential curve -->
+  <path d="M100,700 Q200,500 400,200 Q600,100 800,50 Q1000,20 1200,10" 
+        fill="none" stroke="#4682b4" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Logarithmic curve -->
+  <path d="M50,750 Q100,600 200,400 Q400,200 600,100 Q800,50 1000,20 L1200,10" 
+        fill="none" stroke="#6495ed" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Parabola -->
+  <path d="M300,800 Q600,200 900,800" 
+        fill="none" stroke="#708090" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Mathematical symbols (subtle) -->
+  <g opacity="0.15" fill="#b0c4de">
+    <!-- Integral symbol -->
+    <text x="100" y="150" font-family="serif" font-size="60" transform="rotate(-15 100 150)">∫</text>
+    
+    <!-- Sigma -->
+    <text x="900" y="200" font-family="serif" font-size="45" transform="rotate(10 900 200)">Σ</text>
+    
+    <!-- Pi -->
+    <text x="200" y="650" font-family="serif" font-size="40" transform="rotate(-8 200 650)">π</text>
+    
+    <!-- Lambda -->
+    <text x="1000" y="600" font-family="serif" font-size="35" transform="rotate(12 1000 600)">λ</text>
+    
+    <!-- Delta -->
+    <text x="500" y="100" font-family="serif" font-size="40" transform="rotate(-5 500 100)">Δ</text>
+    
+    <!-- Infinity -->
+    <text x="700" y="700" font-family="serif" font-size="35" transform="rotate(8 700 700)">∞</text>
+    
+    <!-- Alpha -->
+    <text x="50" y="300" font-family="serif" font-size="30" transform="rotate(-12 50 300)">α</text>
+    
+    <!-- Beta -->
+    <text x="1100" y="400" font-family="serif" font-size="30" transform="rotate(15 1100 400)">β</text>
+  </g>
+  
+  <!-- Subtle geometric elements -->
+  <g opacity="0.1" stroke="#add8e6" fill="none" stroke-width="1">
+    <!-- Circles -->
+    <circle cx="200" cy="200" r="80"/>
+    <circle cx="1000" cy="300" r="60"/>
+    <circle cx="400" cy="600" r="70"/>
+    
+    <!-- Polygons -->
+    <polygon points="800,500 850,450 900,500 875,550"/>
+    <polygon points="150,500 200,480 220,520 170,540"/>
+  </g>
+  
+  <!-- Coordinate axes (very subtle) -->
+  <g opacity="0.2" stroke="#4169e1" stroke-width="1">
+    <!-- X-axis -->
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <!-- Y-axis -->
+    <line x1="600" y1="0" x2="600" y2="800"/>
+  </g>
+  
+  <!-- Function equations (very subtle) -->
+  <g opacity="0.1" fill="#778899" font-family="serif" font-size="14">
+    <text x="50" y="50">f(x) = e^x</text>
+    <text x="300" y="30">y = sin(x)</text>
+    <text x="850" y="50">∂f/∂x</text>
+    <text x="50" y="780">y = x²</text>
+    <text x="950" y="780">∫₀^∞ f(x)dx</text>
+  </g>
+</svg> 
