@@ -6,7 +6,7 @@ title: Nikolaos Koutounidis
 name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Nikolaos K.
+first_name: Nikolaos
 last_name: Koutounidis
 
 # Status emoji
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD in Economics
+role: PhD in Economics 2025
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
