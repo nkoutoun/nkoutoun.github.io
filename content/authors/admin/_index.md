@@ -6,7 +6,7 @@ title: Nikolaos Koutounidis
 name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Nikolaos
+first_name: Nikolaos K.
 last_name: Koutounidis
 
 # Status emoji
