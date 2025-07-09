@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD in Economics 2025
+role: PhD in Economics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -37,6 +37,9 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/NickKoutounidis
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/koutounidis.bsky.social
+    label: Bluesky
   - icon: brands/github
     url: https://github.com/nkoutoun
   - icon: brands/linkedin
@@ -45,6 +48,7 @@ profiles:
     url: https://scholar.google.com/citations?hl=en&user=rzQH1HwAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/my-orcid?orcid=0000-0001-7390-1596
+
 
 
 interests:
