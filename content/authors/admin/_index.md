@@ -242,19 +242,19 @@ skills:
       - name: Greek
         description: 'Native'
         percent: 100
-        icon: person-simple-walk
+        icon: chat-bubble-oval-left
       - name: English
         description: 'C2'
         percent: 95
-        icon: person-simple-walk
+        icon: chat-bubble-oval-left
       - name: Dutch
         description: 'B2'
         percent: 70
-        icon: person-simple-walk
+        icon: chat-bubble-oval-left
       - name: German
         description: 'B1'
         percent: 50
-        icon: person-simple-walk
+        icon: chat-bubble-oval-left
 
 # Awards.
 #   Add/remove as many awards below as you like.
