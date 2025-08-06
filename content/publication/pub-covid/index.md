@@ -44,13 +44,13 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S016407042500014X'
+url_pdf: ''
 url_code: 'TBA'
 url_dataset: 'TBA'
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://www.sciencedirect.com/science/article/abs/pii/S016407042500014X'
 url_video: ''
 
 # Featured image
@@ -78,7 +78,7 @@ slides: ""
 {{< jel "E21, E32, D12, I18" >}}
 
 <div style="margin-bottom: 1rem;">
-<img src="featured.png" alt="Rolling window estimation" style="width: 100%; margin-bottom: 0;">
+<img src="covid-figure.png" alt="Rolling window estimation" style="width: 100%; margin-bottom: 0;">
 <p style="font-style: italic; text-align: left; margin-top: 0; margin-bottom: 0; color: #6b7280; font-size: 0.875rem;"><strong>Figure:</strong> Rolling window estimation. Evolution of cases-to-tests and stringency index parameters over time. The dark gray-shaded areas indicate the periods of the seven COVID-19 waves, and the light gray-shaded areas signify the two periods between waves.</p>
 </div>
 

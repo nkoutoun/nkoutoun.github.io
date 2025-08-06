@@ -2,17 +2,17 @@
 title: "The heterogeneous reactions of household credit to income shocks"
 authors:
 - admin
-- "Daniel Murphy"
 - "Elena Loutskina"
+- "Daniel Murphy"
 author_notes:
 - ""
 - ""
 - ""
-date: "2024-12-01T00:00:00Z"
+date: "2025-08-06T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-12-01T00:00:00Z"
+publishDate: "2025-08-06T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -20,20 +20,29 @@ publishDate: "2024-12-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Working Paper"
-publication_short: "Job Market Paper"
+# publication: "Working Paper"
+# publication_short: "Job Market Paper"
 
-abstract: This paper examines how households adjust their credit usage in response to income shocks, revealing significant heterogeneity across different household characteristics. Using detailed household-level data, we analyze the factors that drive differential responses to income changes and their implications for financial stability and monetary policy.
+abstract: We examine the effect of local income shocks on households' debt portfolios aggregated to the zip code level. Households with stronger credit standing and lower leverage actively deleverage across multiple products, whereas some more vulnerable groups expand auto borrowing despite reducing other types of debt. These findings highlight balance-sheet repair, rather than spending, as a priority even among those with few resources.  By highlighting the varied ways different households and credit products respond to shifts in income, our study calls for more nuanced policy approaches that account for heterogeneity in both borrower characteristics and debt composition.
 
 # Summary. An optional shortened abstract.
-summary: Job Market Paper examining heterogeneous household credit responses to income shocks with implications for financial stability.
+# summary: 
 
 tags:
-- Household Finance
-- Credit Markets
+- Consumer Credit
+- Household Debt
+- Heterogeneity
 - Income Shocks
-- Financial Stability
+- Local Labor Demand
 - Job Market Paper
+
+# JEL Classification codes
+jel_codes:
+- "D14"  # Household Saving; Personal Finance
+- "D15"  # Intertemporal Household Choice; Life Cycle Models and Saving
+- "G51"  # Household Finance: Household Saving, Borrowing, Debt, and Wealth
+- "H31"  # Fiscal Policies and Behavior of Economic Agents: Household
+
 featured: true
 
 # links:
@@ -70,11 +79,13 @@ projects: []
 slides: ""
 ---
 
+{{< jel "D14, D15, G51, H31" >}}
+
 {{% callout note %}}
-**Job Market Paper** - This research represents my primary job market paper examining the heterogeneous ways households adjust their credit usage when facing income shocks.
+**Job Market Paper**
 {{% /callout %}}
 
-This research investigates how different types of households respond to income changes through their credit behavior, providing new insights into the transmission mechanisms of economic shocks and their implications for financial stability and monetary policy effectiveness.
+<!-- This research investigates how different types of households respond to income changes through their credit behavior, providing new insights into the transmission mechanisms of economic shocks and their implications for financial stability and monetary policy effectiveness.
 
 ## Key Research Questions
 
@@ -91,8 +102,4 @@ This research investigates how different types of households respond to income c
 
 ## Preliminary Findings
 
-The analysis reveals significant heterogeneity in how households adjust their credit usage in response to income shocks, with important implications for understanding financial stability and the effectiveness of monetary policy transmission.
-
-{{% callout note %}}
-This paper is co-authored with Daniel Murphy (University of Virginia, Darden School of Business) and Elena Loutskina (University of Virginia, Darden School of Business).
-{{% /callout %}}
+The analysis reveals significant heterogeneity in how households adjust their credit usage in response to income shocks, with important implications for understanding financial stability and the effectiveness of monetary policy transmission. -->

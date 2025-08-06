@@ -6,11 +6,11 @@ authors:
 author_notes:
 - ""
 - ""
-date: "2024-06-01T00:00:00Z"
+date: "2025-08-06T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-06-01T00:00:00Z"
+publishDate: "2025-08-06T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,20 +18,33 @@ publishDate: "2024-06-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Working Paper"
-publication_short: "Working Paper"
+# publication: "Working Paper"
+# publication_short: "Working Paper"
 
-abstract: This paper examines how global oil price shocks affect the US economy, with particular attention to the heterogeneous effects across states based on their shale oil production levels. We analyze how the shale oil revolution has altered the transmission of oil price shocks to regional economic activity and explore the implications for aggregate economic responses.
+abstract: This paper examines how global oil price shocks affect the US economy, focusing on heterogeneity driven by state-level shale oil production. Using an LP-IV model on state-level data (2005-2023) and an oil supply news shock, we assess impacts on economic conditions and unemployment. Our very preliminary results suggest a positive oil supply news shock negatively impacts aggregate US economic conditions and employment. While conventional oil production levels show little difference in state responses, we observe some heterogeneity based on shale production, where these negative effects appear more muted. This research highlights the importance of regional factors in assessing oil market dynamics, though further validation is essential.
+
 
 # Summary. An optional shortened abstract.
-summary: Analysis of how oil price shocks affect the US economy heterogeneously based on cross-state differences in shale oil production.
+# summary: Analysis of how oil price shocks affect the US economy heterogeneously based on cross-state differences in shale oil production.
 
 tags:
-- Oil Prices
+- Oil Price Shocks
 - Shale Oil
-- Regional Economics
-- Energy Economics
-- Macroeconomics
+- Regional Heterogeneity
+- Local Projections
+- Proxy-SVAR
+- Oil Supply News
+- Fracking
+- State-level Macroeconomics
+
+# JEL Classification codes
+jel_codes:
+- "E32"  # Business Fluctuations; Cycles
+- "Q43"  # Energy and the Macroeconomy
+- "R11"  # Regional Economic Activity: Growth, Development, Environmental Issues, and Changes
+- "C33"  # Panel Data Models; Spatio-temporal Models
+- "Q35"  # Hydrocarbon Resources (Shale Oil and Gas)
+
 featured: false
 
 # links:
@@ -68,31 +81,5 @@ projects: []
 slides: ""
 ---
 
-This research investigates how the shale oil revolution has fundamentally changed the way oil price shocks transmit through the US economy, creating new patterns of regional heterogeneity based on local energy production capabilities.
+{{< jel "E32, Q43, R11, C33, Q35" >}}
 
-## Research Focus
-
-The paper addresses several key questions:
-
-1. **Regional Heterogeneity**: How do oil price effects vary across US states based on shale production?
-2. **Transmission Mechanisms**: What are the channels through which oil prices affect regional economies?
-3. **Structural Change**: How has the shale revolution altered traditional oil-economy relationships?
-4. **Aggregate Implications**: What do regional differences mean for national economic responses?
-
-## Methodology
-
-- **Data**: State-level economic indicators and shale oil production data
-- **Approach**: Panel data analysis exploiting cross-state variation in shale resources
-- **Period**: Focus on pre- and post-shale boom periods
-- **Identification**: Leveraging exogenous variation in geological shale deposits
-
-## Key Contributions
-
-1. **Novel Perspective**: First comprehensive analysis of shale oil's role in oil shock transmission
-2. **Regional Focus**: Detailed examination of cross-state heterogeneity
-3. **Policy Relevance**: Insights for energy and macroeconomic policy
-4. **Empirical Innovation**: New approaches to measuring regional energy effects
-
-{{% callout note %}}
-This research is conducted in collaboration with Selien De Schryder from Ghent University.
-{{% /callout %}}

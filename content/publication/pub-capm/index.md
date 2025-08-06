@@ -46,7 +46,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://www.ajol.info/index.php/aref/article/view/162148'
+url_pdf: 'uploads/paper-capm.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

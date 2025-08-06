@@ -12,11 +12,11 @@ author_notes:
 - ""
 - ""
 - ""
-date: "2024-09-01T00:00:00Z"
+date: "2025-08-06T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-09-01T00:00:00Z"
+publishDate: "2025-08-06T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,28 +24,33 @@ publishDate: "2024-09-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Working Paper"
-publication_short: "Working Paper"
+# publication: "Working Paper"
+# publication_short: "Working Paper"
 
-abstract: This paper examines behavioral responses to Belgium's tax on securities accounts, which targets high-wealth individuals. Using detailed administrative data, we analyze how wealthy households adjust their portfolios, asset holdings, and financial strategies in response to this wealth tax policy. Our findings provide new evidence on the effectiveness and unintended consequences of wealth taxation.
+abstract: This paper investigates the behavioural responses of wealthy individuals to a specific wealth tax in Belgium—the Annual Tax on Securities Accounts (ATSA). Unlike general net wealth taxes, ATSA targets the stock value of securities accounts above a defined threshold. Using high-quality individual-level banking data from BNP Paribas Fortis covering 4 million clients (2006–2023), we apply advanced bunching methods to identify taxpayer reactions near the tax thresholds. Preliminary results for the 2019 tax year reveal significant behavioural responses, with a bunching estimate of 2.2, corresponding to a remarkably high elasticity of 29.3. These findings suggest substantial avoidance behaviour, likely facilitated by the narrow tax base and asset reallocation opportunities. Ongoing analyses using non-parametric and dynamic bunching approaches aim to validate and refine these estimates, while forthcoming work will assess tax avoidance mechanisms using difference-in-differences designs. The study contributes to the literature by offering novel evidence on the efficiency and behavioural effects of taxing specific forms of financial wealth.
+
+
 
 # Summary. An optional shortened abstract.
 summary: Analysis of behavioral responses to Belgium's wealth tax using administrative data, revealing portfolio adjustments and strategic responses by high-wealth individuals.
 
 tags:
-- Wealth Tax
-- Tax Policy
-- Behavioral Responses
-- Public Finance
+- Wealth taxation
+- Behavioural responses
+- Tax avoidance
+- Securities accounts
+- Bunching estimation
+- Financial wealth
+- Tax elasticity
 - Belgium
 
 # JEL Classification codes
 jel_codes:
 - "H24"  # Personal Income and Other Nonbusiness Taxes and Subsidies
 - "H26"  # Tax Evasion and Avoidance
-- "D14"  # Household Saving; Personal Finance
-- "G11"  # Portfolio Choice; Investment Decisions
-
+- "D31"  # Personal Income, Wealth, and Their Distribution
+- "C21"  # Cross-Sectional Models; Spatial Models; Treatment Effect Models
+- "E62"  # Fiscal Policy
 featured: false
 
 # links:
@@ -82,41 +87,4 @@ projects: []
 slides: ""
 ---
 
-{{< jel "H24, H26, D14, G11" >}}
-
-This research provides novel evidence on how high-wealth individuals respond to wealth taxation, using Belgium's tax on securities accounts as a natural experiment. The analysis leverages detailed administrative data to track behavioral changes and portfolio adjustments.
-
-## Research Context
-
-Belgium's tax on securities accounts provides an ideal setting to study wealth tax responses:
-
-1. **Clean Policy Experiment**: Clear threshold-based tax design
-2. **High-Quality Data**: Administrative records with detailed portfolio information  
-3. **Recent Implementation**: Contemporary policy relevance
-4. **Cross-Border Considerations**: International wealth management implications
-
-## Key Research Questions
-
-- **Portfolio Responses**: How do wealthy individuals adjust their asset allocations?
-- **Avoidance Strategies**: What mechanisms are used to minimize tax liability?
-- **Revenue Effects**: How effective is the tax at generating government revenue?
-- **Distributional Impact**: Who bears the ultimate burden of the wealth tax?
-
-## Methodology
-
-- **Data**: Administrative tax records and financial account data
-- **Design**: Regression discontinuity and difference-in-differences approaches
-- **Sample**: High-wealth individuals subject to the securities account tax
-- **Period**: Pre- and post-implementation comparison
-
-## Policy Relevance
-
-The findings contribute to ongoing debates about:
-- Optimal wealth tax design
-- International tax coordination
-- Revenue potential of wealth taxation
-- Unintended behavioral consequences
-
-{{% callout note %}}
-This research involves collaboration with researchers from multiple institutions including the University of Chicago Booth School of Business.
-{{% /callout %}}
+{{< jel "H24, H26, D31, C21, E62" >}}
