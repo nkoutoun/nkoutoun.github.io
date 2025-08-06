@@ -1,0 +1,10 @@
+{{/* Display JEL Classification codes */}}
+{{ with .Params.jel_codes }}
+<div class="mt-3">
+  <span class="font-weight-bold">JEL Classification: </span>
+  {{ range $index, $code := . }}
+    {{ if gt $index 0 }}, {{ end }}
+    <span class="badge badge-light">{{ $code }}</span>
+  {{ end }}
+</div>
+{{ end }}

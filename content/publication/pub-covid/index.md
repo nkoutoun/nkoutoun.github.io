@@ -10,8 +10,8 @@ author_notes:
 - ""
 - ""
 - ""
-date: "2025-01-01T00:00:00Z"
-doi: "10.1016/j.jmacro.2025.103677"
+date: "2025-04-13T00:00:00Z"
+# doi: "10.1016/j.jmacro.2025.103677"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-01-01T00:00:00Z"
@@ -23,39 +23,42 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Journal of Macroeconomics, 84*, 103677"
-publication_short: "J. Macroeconomics"
+# publication_short: "J. Macroeconomics"
 
-abstract: Using granular bank transaction data from a major Belgian bank, we analyze the heterogeneous impact of COVID-19 on household consumption patterns. Our dataset covers over 200,000 households during the pandemic period, allowing us to examine consumption responses across different demographic groups and spending categories. We find significant heterogeneity in consumption responses, with younger households and those in contact-intensive sectors showing larger declines. The analysis reveals important insights for understanding the economic effects of pandemic-related restrictions and the design of targeted policy responses.
+
+
+abstract: The transmission of the pandemic shock to the macroeconomy through the prism of consumer heterogeneity is the focal point of this paper. Based on a rich bank account and transactions micro dataset, we assess the roles of local COVID-19 severity, government measures against the spread of the virus, and vaccination rates for households’ consumption behavior in Belgium. We find that households living in areas that experienced high COVID-19 positivity rates and more stringent containment measures, decreased their consumption more. The relevance of these effects, however, shifted over the course of the pandemic. Higher local vaccination rates significantly counteracted these negative impacts on household consumption. Furthermore, our study highlights that the impact of these factors on consumption varied distinctly across households with different income, liquid wealth, and age characteristics.
 
 # Summary. An optional shortened abstract.
 summary: This paper uses detailed bank transaction data to examine how COVID-19 affected household consumption patterns, revealing significant heterogeneity across demographic groups.
 
 tags:
 - COVID-19
-- Household Consumption
-- Bank Transaction Data
-- Macroeconomics
-- Pandemic Economics
+- Pandemic
+- Lockdown
+- Transactions data
+- Heterogeneity
+
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
 url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S016407042500014X'
-url_code: ''
-url_dataset: ''
+url_code: 'TBA'
+url_dataset: 'TBA'
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://www.sciencedirect.com/science/article/abs/pii/S016407042500014X'
+url_source: ''
 url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'COVID-19 impact on consumption patterns'
-  focal_point: ""
-  preview_only: false
+# image:
+#   caption: 'Figure: Rolling window estimation. Evolution of cases-to-tests and stringency index parameters over time. The dark gray-shaded areas indicate the periods of the seven COVID-19 waves, and the light gray-shaded areas signify the two periods between waves.'
+#   focal_point: ""
+#   preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -72,7 +75,14 @@ projects: []
 slides: ""
 ---
 
-This research provides novel insights into the heterogeneous economic effects of the COVID-19 pandemic using granular household-level transaction data. The findings have important implications for understanding crisis responses and designing targeted policy interventions.
+{{< jel "E21, E32, D12, I18" >}}
+
+<div style="margin-bottom: 1rem;">
+<img src="featured.png" alt="Rolling window estimation" style="width: 100%; margin-bottom: 0;">
+<p style="font-style: italic; text-align: left; margin-top: 0; margin-bottom: 0; color: #6b7280; font-size: 0.875rem;"><strong>Figure:</strong> Rolling window estimation. Evolution of cases-to-tests and stringency index parameters over time. The dark gray-shaded areas indicate the periods of the seven COVID-19 waves, and the light gray-shaded areas signify the two periods between waves.</p>
+</div>
+
+<!-- This research provides novel insights into the heterogeneous economic effects of the COVID-19 pandemic using granular household-level transaction data. The findings have important implications for understanding crisis responses and designing targeted policy interventions.
 
 ## Key Findings
 
@@ -91,4 +101,4 @@ The analysis leverages a unique dataset from a major Belgian bank covering:
 
 {{% callout note %}}
 This paper represents collaborative research between Ghent University and BNP Paribas Fortis.
-{{% /callout %}} 
+{{% /callout %}}  -->

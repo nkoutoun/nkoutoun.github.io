@@ -53,20 +53,16 @@ profiles:
 
 interests:
   - Empirical Macroeconomics
-  - Household Consumptuon & Finance
-  - Oil Markets
-  - Applied Econometrics
-  - Monetary Economics & Policy
-  - Fiscal Policy
-  - Inequality
+  - Household Economics and Finance
+  - Energy Economics
 
 education:
-  - area: PhD in Economics
+  - area: PhD in Economics (expected)
     institution: Ghent University
     date_start: 2020-01-01
-    date_end: ''
+    date_end: 2026-12-31
     summary: |
-      Research Group: Macroeconomics, Policy & Econometrics
+      Assistant Academic Personnel; Research Group: Macroeconomics, Policy & Econometrics
   - area: Opportunity Insights Data Lab
     institution: Harvard University
     date_start: 2023-08-01
@@ -97,10 +93,10 @@ work:
     company_name: BNP Paribas Fortis
     company_url: 'https://www.bnpparibasfortis.be/'
     company_logo: ''
-    date_start: 2021-06-01
+    date_start: 2025-01-01
     date_end: ''
     summary: |2-
-      Conducting academic research within the 'Analytics & Artificial Intelligence' unit of BNP in the framework of a long-term collaboration with Ghent University. Our goal is to construct "Models for a Changing world" with which we push the state-of-the-art in societal and banking relevant economic research.
+      Conducting academic research within the 'Analytics & Artificial Intelligence' unit in the framework of a long-term collaboration with Ghent University. Goal: construct "Models for a Changing world" pushing the state-of-the-art in societal and banking relevant economic research.
   - position: Assistant Academic Personnel
     company_name: Ghent University
     company_url: 'https://www.ugent.be/'
@@ -111,8 +107,8 @@ work:
       Focus: Empirical Macroeconomics, Monetary Economics & Policy, Oil Markets, Macro-Finance, Inequality
       
       Teaching Assistant:
-      - Monetary Economics (2021, 2022, 2023, 2024)
-      - Monetary Policy (2022, 2023)
+      - Monetary Economics (2021-25)
+      - Monetary Policy (2022-25)
       - International Financial Management (2021)
   - position: Risk Analyst (Risk Strategy Division)
     company_name: European Central Bank
@@ -126,10 +122,34 @@ work:
     company_name: European Central Bank
     company_url: 'https://www.ecb.europa.eu/'
     company_logo: ''
-    date_start: 2018-08-01
+    date_start: 2019-02-01
     date_end: 2019-05-31
     summary: |
-      Testing, production & analysis of the new Euro Short-Term Rate (€STR), design & maintenance of reporting tools for Money Markets (MM), data analysis of MM activity and collection of feedback for MM developments, analysis of bidding behavior for ECB's monetary policy operations, daily liquidity analysis
+      Testing, production & analysis of the new Euro Short-Term Rate (€STR), design & maintenance of reporting tools for Money Markets, data analysis of MM activity, analysis of bidding behavior for ECB's monetary policy operations, daily liquidity analysis.
+  - position: Debt Capital Markets Internship (Investment Grade Clients)
+    company_name: ING
+    company_url: 'https://www.ing.com/'
+    company_logo: ''
+    date_start: 2018-02-01
+    date_end: 2018-07-31
+    summary: |
+      DCM deal execution, pitch preparation, pricing updates coordination, tailor-made bond issuance advice.
+  - position: EMEA Finance Assistant
+    company_name: Dolby Laboratories
+    company_url: 'https://www.dolby.com/'
+    company_logo: ''
+    date_start: 2017-02-01
+    date_end: 2017-07-31
+    summary: |
+      Accounts Payable management with SAP, cash clearing, KPI reporting, analysis and metrics.
+  - position: Management Consulting Internship
+    company_name: Q-PLAN INTERNATIONAL
+    company_url: 'https://www.qplan.gr/'
+    company_logo: ''
+    date_start: 2015-06-01
+    date_end: 2015-08-31
+    summary: |
+      Provision of business development services to the private sector (strategy, financial, marketing studies) on behalf of the European Commission.
 
 # Publications section
 publications:
@@ -140,51 +160,27 @@ publications:
     volume: "9(1)"
     pages: "180-189"
     summary: "Modified Bachelor Thesis"
-  - title: "Assessing the Heterogeneous Impact of COVID-19 on Consumption Using Bank Transactions Data"
-    authors: "De Schryder, S., Koutounidis, N., Schoors, K., Weytjens, J."
-    date: "2024"
-    journal: "UGent Working Papers"
-    number: "2024/1090"
-    status: "Working Paper"
-  - title: "Tax on Securities Accounts: Taxable Wealth Reactions, Asset Price Adjustments, and Substitution Effects"
-    authors: "Bastin, T., Koutounidis, N., Tojerow, I., Van Den Heuvel, M., Yannelis, C."
-    date: "2024"
-    status: "Work in Progress"
+  - title: "Assessing the heterogeneous impact of COVID-19 on consumption using bank transactions"
+    authors: "De Schryder, S., Koutounidis, N., Schoors, K., & Weytjens, J."
+    date: "2025"
+    journal: "Journal of Macroeconomics"
+    volume: "84"
+    pages: "103677"
+    status: "Published"
   - title: "The heterogeneous reactions of household credit to income shocks"
     authors: "Koutounidis, N., Murphy, D., Loutskina, E."
     date: "2024"
-    status: "Work in Progress"
+    status: "Work in Progress - Job Market Paper"
   - title: "Global Oil Price Shocks Effects on the US Economy: The Role of Cross-State Heterogeneity in Shale Oil Production Levels"
     authors: "De Schryder, S., Koutounidis, N."
-    date: "2022"
+    date: "2024"
+    status: "Work in Progress"
+  - title: "Behavioural answers to top-financial wealth tax: evidence from Belgium"
+    authors: "Bastin, T., Koutounidis, N., Tojerow, I., Van Den Heuvel, M., Yannelis, C."
+    date: "2024"
     status: "Work in Progress"
 
-# Presentations
-presentations:
-  - title: "49th Annual Eastern Economic Association (EEA) Conference"
-    location: "New York, USA"
-    date: "2023-02-01"
-    type: "Paper presentation"
-  - title: "Monthly Internal Research Seminar of the National Bank of Slovakia"
-    location: "Online"
-    date: "2023-01-01"
-    type: "Invited speaker"
-  - title: "12th Biennial Conference of the Czech Economic Society"
-    location: "Prague, Czech Republic"
-    date: "2022-11-01"
-    type: "Paper presentation"
-  - title: "Research Day – Faculty of Economics & Business, Ghent University"
-    location: "Ghent, Belgium"
-    date: "2022-05-01"
-    type: "Poster presentation"
-  - title: "9th Annual Workshop on Empirical Macroeconomics"
-    location: "Ghent University, Belgium"
-    date: "2022-05-01"
-    type: "Poster presentation"
-  - title: "6th International Conference on Applied Theory, Macro and Empirical Finance"
-    location: "University of Macedonia, Thessaloniki, Greece"
-    date: "2022-04-01"
-    type: "Paper presentation"
+# Presentations (available in CV)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -211,7 +207,31 @@ skills:
         description: 'Advanced'
         percent: 90
         icon: code-bracket
+      - name: Tableau
+        description: 'Advanced'
+        percent: 85
+        icon: code-bracket
+      - name: EViews
+        description: 'Advanced'
+        percent: 85
+        icon: code-bracket
+      - name: Bloomberg
+        description: 'Advanced'
+        percent: 85
+        icon: code-bracket
+      - name: DataStream
+        description: 'Advanced'
+        percent: 85
+        icon: code-bracket
       - name: MATLAB
+        description: 'Intermediate'
+        percent: 70
+        icon: code-bracket
+      - name: GitHub
+        description: 'Intermediate'
+        percent: 70
+        icon: code-bracket
+      - name: Bitbucket
         description: 'Intermediate'
         percent: 70
         icon: code-bracket
@@ -260,8 +280,11 @@ awards:
 # Activities and Positions of Responsibility
 activities:
   - title: Reviewer
-    organization: Journal of Economics and Finance (JOEF)
+    organization: Journal of Economics and Finance
     date: "2022-01-01"
+  - title: Reviewer
+    organization: Journal of Macroeconomics
+    date: "2024-01-01"
   - title: Project Manager and Treasurer
     organization: Master Committee of the Economic Faculty association Rotterdam (EFR)
     date: "2017-01-01"
@@ -273,8 +296,8 @@ activities:
 
 ## About Me
 
-I am a PhD candidate in Economics at Ghent University, focusing on Empirical Macroeconomics, Monetary Economics & Policy, Oil Markets, Macro-Finance, and Inequality. I also serve as an Economist in Residence at BNP Paribas Fortis, where I contribute to the 'Analytics & Artificial Intelligence' unit constructing "Models for a Changing world."
+I am a PhD candidate in Economics at Ghent University (expected 2026), focusing on Empirical Macroeconomics, Household Economics and Finance, and Energy Economics. I also serve as an Economist in Residence at BNP Paribas Fortis, where I contribute to the 'Analytics & Artificial Intelligence' unit constructing "Models for a Changing world."
 
-My research has been presented at various conferences including the 49th Annual Eastern Economic Association Conference and the 12th Biennial Conference of the Czech Economic Society. I have published in the African Review of Economics and Finance and have several working papers on topics such as the heterogeneous impact of COVID-19 on consumption and the effects of global oil price shocks on the US economy.
+My research has been published in the Journal of Macroeconomics and the African Review of Economics and Finance. My job market paper explores "The heterogeneous reactions of household credit to income shocks." I have presented my work at numerous conferences including recent presentations at the BSE Summer Forum in Barcelona and various applied econometrics conferences.
 
-Previously, I worked at the European Central Bank in Frankfurt am Main, first as a trainee in Money Markets and Liquidity and later as a Risk Analyst in the Risk Strategy Division. I hold an M.Sc. in Economics and Business from Erasmus University Rotterdam and a Bachelor's in Economics from the University of Macedonia in Greece.
+I have been a Visiting Scholar at Harvard University's Opportunity Insights Data Lab (hosted by Raj Chetty) and the University of Virginia's Darden School of Business (hosted by Daniel Murphy). Previously, I worked at the European Central Bank in Frankfurt am Main, first as a trainee in Money Markets and Liquidity and later as a Risk Analyst in the Risk Strategy Division. I hold an M.Sc. in Economics and Business from Erasmus University Rotterdam and a Bachelor's in Economics from the University of Macedonia in Greece.

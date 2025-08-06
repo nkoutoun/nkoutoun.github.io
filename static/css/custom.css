@@ -1,0 +1,40 @@
+/* Custom CSS to fix image caption positioning */
+
+/* Position captions below images instead of overlaying them */
+.article-header.featured-image-wrapper {
+  position: relative;
+}
+
+.article-header.featured-image-wrapper .article-header-caption {
+  position: static !important;
+  background: transparent !important;
+  color: #6b7280 !important; /* Gray-500 color */
+  font-size: 0.875rem !important; /* Small text */
+  font-style: italic;
+  text-align: center;
+  padding: 0.5rem 0 !important;
+  margin-top: 0.5rem !important;
+  display: block !important;
+  width: 100% !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+}
+
+/* Dark mode support */
+.dark .article-header.featured-image-wrapper .article-header-caption {
+  color: #9ca3af !important; /* Gray-400 color for dark mode */
+}
+
+/* Ensure the image container doesn't have overlapping elements */
+.article-header.featured-image-wrapper > div {
+  position: static !important;
+}
+
+/* Make sure the image itself is displayed properly */
+.article-header.featured-image-wrapper .featured-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
