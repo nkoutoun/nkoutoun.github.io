@@ -48,19 +48,18 @@ This visualization is created using Python with the following libraries:
 - `pandas`: For data manipulation and analysis
 - `plotly`: For creating interactive visualizations
 
-You can generate this visualization yourself using the provided Python script. The script and all necessary files are available in the `static/python/ecb_rates/` directory of this website.
+You can generate this visualization yourself using the provided Python script. The script and all necessary files are available in a dedicated GitHub repository for easy access and learning.
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
+git clone https://github.com/nkoutoun/teaching.git
+cd teaching/monetary_econ
 ```
 
 ### Step 2: Install Dependencies
 
 ```bash
-cd static/python/ecb_rates
 pip install -r requirements.txt
 ```
 
@@ -73,14 +72,14 @@ python generate_visualization.py
 This will:
 1. Fetch the latest ECB rates data from the ECB Statistical Data Warehouse
 2. Generate an interactive HTML visualization
-3. Save it to `static/html/ecb_rates.html`
+3. Save it to `ecb_rates.html` (or your specified output path)
 
 #### Optional Arguments
 
 You can customize the script with the following arguments:
 
 - `--start-date`: Start date in YYYY-MM format (default: 1999-01)
-- `--output`: Output HTML file path (default: static/html/ecb_rates.html)
+- `--output`: Output HTML file path (default: ecb_rates.html)
 
 Example with custom parameters:
 
@@ -329,34 +328,16 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          cd static/python/ecb_rates
           pip install -r requirements.txt
           
       - name: Generate visualization
         run: |
-          cd static/python/ecb_rates
           python generate_visualization.py
           
       - name: Commit and push changes
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add static/html/ecb_rates.html
+          git add ecb_rates.html
           git diff --staged --quiet || (git commit -m "Update ECB rates visualization" && git push)
 ```
-
-## How to Use the Visualization
-
-- **Hover**: See exact values at specific dates
-- **Zoom**: Click and drag to zoom in on a specific time period
-- **Pan**: After zooming, click and drag to pan across different periods
-- **Reset**: Double-click to reset the view
-- **Legend**: Click on items in the legend to hide/show specific rates
-
-## Learning Resources
-
-- [ECB Monetary Policy](https://www.ecb.europa.eu/mopo/html/index.en.html)
-- [Key ECB Interest Rates](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html)
-- [Euro Short-Term Rate (€STR)](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/index.en.html)
-
-## Did you find this visualization helpful? Consider sharing it 🙌 
