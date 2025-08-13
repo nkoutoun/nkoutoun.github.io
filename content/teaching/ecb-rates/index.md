@@ -25,7 +25,7 @@ The visualization shows:
 - **Euro Short-Term Rate (€STR)**: A reference rate based on euro area banks' overnight borrowing.
 - **EONIA**: Euro Overnight Index Average (discontinued in January 2022).
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<div style="position: relative; padding-bottom: 95%; height: 0; overflow: hidden; margin-left: -10vw; margin-right: -10vw; width: calc(100% + 20vw);">
   <iframe src="/html/ecb_rates.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="ECB Key Interest Rates"></iframe>
 </div>
 

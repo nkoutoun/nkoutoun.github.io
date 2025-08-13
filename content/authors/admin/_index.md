@@ -256,11 +256,11 @@ skills:
       - name: English
         description: 'C2'
         percent: 95
-        icon: flag-uk
+        icon: flag-english-dual
       - name: Dutch
         description: 'B2'
         percent: 70
-        icon: flag-netherlands
+        icon: flag-dutch-dual
       - name: German
         description: 'B1'
         percent: 50
