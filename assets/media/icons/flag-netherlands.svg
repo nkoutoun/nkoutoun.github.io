@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 18" width="24" height="16">
+  <!-- Netherlands flag - horizontal tricolor: red, white, blue -->
+  <rect width="27" height="18" fill="#21468B"/>
+  <rect x="0" y="0" width="27" height="6" fill="#AE1C28"/>
+  <rect x="0" y="6" width="27" height="6" fill="white"/>
+</svg>

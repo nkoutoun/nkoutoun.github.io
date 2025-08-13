@@ -185,16 +185,10 @@ publications:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming & Analysis
+    color: '#2563eb'
+    color_border: '#3b82f6'
     items:
-      - name: MS Office
-        description: 'Advanced'
-        percent: 95
-        icon: code-bracket
-      - name: Stata
-        description: 'Advanced'
-        percent: 90
-        icon: code-bracket
       - name: Python
         description: 'Advanced'
         percent: 85
@@ -203,30 +197,38 @@ skills:
         description: 'Advanced'
         percent: 85
         icon: code-bracket
-      - name: LaTeX
-        description: 'Advanced'
-        percent: 90
-        icon: code-bracket
-      - name: Tableau
-        description: 'Advanced'
-        percent: 85
-        icon: code-bracket
-      - name: EViews
-        description: 'Advanced'
-        percent: 85
-        icon: code-bracket
-      - name: Bloomberg
-        description: 'Advanced'
-        percent: 85
-        icon: code-bracket
-      - name: DataStream
-        description: 'Advanced'
-        percent: 85
-        icon: code-bracket
       - name: MATLAB
         description: 'Intermediate'
         percent: 70
         icon: code-bracket
+      - name: Tableau
+        description: 'Advanced'
+        percent: 85
+        icon: chart-bar
+  - name: Statistical Software
+    color: '#059669'
+    color_border: '#10b981'
+    items:
+      - name: Stata
+        description: 'Advanced'
+        percent: 90
+        icon: calculator
+      - name: EViews
+        description: 'Advanced'
+        percent: 85
+        icon: calculator
+      - name: Bloomberg
+        description: 'Advanced'
+        percent: 85
+        icon: chart-bar
+      - name: DataStream
+        description: 'Advanced'
+        percent: 85
+        icon: chart-bar
+  - name: Development Tools
+    color: '#dc2626'
+    color_border: '#ef4444'
+    items:
       - name: GitHub
         description: 'Intermediate'
         percent: 70
@@ -235,26 +237,35 @@ skills:
         description: 'Intermediate'
         percent: 70
         icon: code-bracket
-  - name: Languages
+      - name: LaTeX
+        description: 'Advanced'
+        percent: 90
+        icon: document-text
+      - name: MS Office
+        description: 'Advanced'
+        percent: 95
+        icon: document-text
+  - name: Language Skills
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Greek
         description: 'Native'
         percent: 100
-        icon: chat-bubble-oval-left
+        icon: flag-greece
       - name: English
         description: 'C2'
         percent: 95
-        icon: chat-bubble-oval-left
+        icon: flag-uk
       - name: Dutch
         description: 'B2'
         percent: 70
-        icon: chat-bubble-oval-left
+        icon: flag-netherlands
       - name: German
         description: 'B1'
         percent: 50
-        icon: chat-bubble-oval-left
+        icon: flag-germany
+
 
 # Awards.
 #   Add/remove as many awards below as you like.

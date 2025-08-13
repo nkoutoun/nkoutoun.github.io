@@ -1,18 +1,16 @@
 ---
 title: ECB Interest Rates
 summary: Interactive visualization of European Central Bank key interest rates
-date: 2023-03-25
+date: 2025-08-13
 type: docs
 weight: 1
 tags:
-  - Economics
   - Monetary Policy
-  - ECB
-  - Interactive
-  - Python
-  - Plotly
+  - Monetary Economics
 image:
+  filename: featured_image.png
   caption: 'Interactive visualization of ECB key interest rates'
+  focal_point: 'Center'
 ---
 
 # ECB Key Interest Rates and Reference Rates

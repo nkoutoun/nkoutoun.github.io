@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 18" width="24" height="16">
+  <!-- German flag - horizontal tricolor: black, red, gold -->
+  <rect width="27" height="18" fill="#FFCE00"/>
+  <rect x="0" y="0" width="27" height="6" fill="#000000"/>
+  <rect x="0" y="6" width="27" height="6" fill="#DD0000"/>
+</svg>
