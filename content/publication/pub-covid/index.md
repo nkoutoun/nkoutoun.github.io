@@ -77,9 +77,26 @@ slides: ""
 
 {{< jel "E21, E32, D12, I18" >}}
 
+<!-- # Static Image
 <div style="margin-bottom: 1rem;">
 <img src="covid-figure.png" alt="Rolling window estimation" style="width: 100%; margin-bottom: 0;">
 <p style="font-style: italic; text-align: left; margin-top: 0; margin-bottom: 0; color: #6b7280; font-size: 0.875rem;"><strong>Figure:</strong> Rolling window estimation. Evolution of cases-to-tests and stringency index parameters over time. The dark gray-shaded areas indicate the periods of the seven COVID-19 waves, and the light gray-shaded areas signify the two periods between waves.</p>
+</div> -->
+
+## Interactive Dashboard
+
+Explore the data interactively with the COVID-19 Belgium dashboard:
+
+<div style="margin: 2rem -12rem; width: calc(100% + 24rem); max-width: none;">
+<iframe src="https://covid-belgium-dashboard.onrender.com" 
+        width="100%" 
+        height="900" 
+        style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"
+        title="COVID-19 Belgium Consumption Dashboard">
+</iframe>
+<p style="font-style: italic; text-align: center; margin-top: 0.5rem; color: #6b7280; font-size: 0.875rem;">
+<strong>Interactive Dashboard:</strong> Explore the heterogeneous impact of COVID-19 on consumption patterns across Belgian households.
+</p>
 </div>
 
 <!-- This research provides novel insights into the heterogeneous economic effects of the COVID-19 pandemic using granular household-level transaction data. The findings have important implications for understanding crisis responses and designing targeted policy interventions.
