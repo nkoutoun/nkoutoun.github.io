@@ -45,8 +45,8 @@ featured: false
 # - name: ""
 #   url: ""
 url_pdf: ''
-url_code: 'TBA'
-url_dataset: 'TBA'
+url_code: 'https://github.com/nkoutoun/covid_paper.git'
+url_dataset: 'https://covid-belgium-dashboard.onrender.com/'
 url_poster: ''
 url_project: ''
 url_slides: ''
