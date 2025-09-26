@@ -26,8 +26,7 @@ role: PhD in Economics
 organizations:
   - name: Ghent University
     url: https://www.ugent.be/
-  - name: BNP Paribas Fortis
-    url: https://www.bnpparibasfortis.be/
+
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -307,8 +306,4 @@ activities:
 
 ## About Me
 
-I am a PhD candidate in Economics at Ghent University (expected 2026), focusing on Empirical Macroeconomics, Household Economics and Finance, and Energy Economics. I also serve as an Economist in Residence at BNP Paribas Fortis, where I contribute to the 'Analytics & Artificial Intelligence' unit constructing "Models for a Changing world."
-
-My research has been published in the Journal of Macroeconomics and the African Review of Economics and Finance. My job market paper explores "The heterogeneous reactions of household credit to income shocks." I have presented my work at numerous conferences including recent presentations at the BSE Summer Forum in Barcelona and various applied econometrics conferences.
-
-I have been a Visiting Scholar at Harvard University's Opportunity Insights Data Lab (hosted by Raj Chetty) and the University of Virginia's Darden School of Business (hosted by Daniel Murphy). Previously, I worked at the European Central Bank in Frankfurt am Main, first as a trainee in Money Markets and Liquidity and later as a Risk Analyst in the Risk Strategy Division. I hold an M.Sc. in Economics and Business from Erasmus University Rotterdam and a Bachelor's in Economics from the University of Macedonia in Greece.
+I am a PhD candidate in Economics at Ghent University (expected 2026), focusing on Empirical Macroeconomics, Household Economics and Finance, and Energy Economics. My research has been published in the Journal of Macroeconomics and the African Review of Economics and Finance. My job market paper explores "The heterogeneous reactions of household credit to income shocks." I have been a Visiting Scholar at Harvard University's Opportunity Insights Data Lab (hosted by Raj Chetty) and the University of Virginia's Darden School of Business (hosted by Daniel Murphy). Previously, I worked at the European Central Bank in Frankfurt am Main, first as a trainee in Money Markets and Liquidity and later as a Risk Analyst in the Risk Strategy Division. I hold an M.Sc. in Economics and Business from Erasmus University Rotterdam and a Bachelor's in Economics from the University of Macedonia in Greece.

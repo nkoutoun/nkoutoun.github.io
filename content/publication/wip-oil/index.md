@@ -36,6 +36,7 @@ tags:
 - Oil Supply News
 - Fracking
 - State-level Macroeconomics
+- "Work in Progress"
 
 # JEL Classification codes
 jel_codes:

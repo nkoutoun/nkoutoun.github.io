@@ -43,6 +43,7 @@ tags:
 - Financial wealth
 - Tax elasticity
 - Belgium
+- "Work in Progress"
 
 # JEL Classification codes
 jel_codes:
