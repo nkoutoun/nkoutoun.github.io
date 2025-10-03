@@ -23,7 +23,7 @@ publication_types: ["article"]
 # publication: "Working Paper"
 # publication_short: "Job Market Paper"
 
-abstract: We examine the effect of local income shocks on households' debt portfolios aggregated to the zip code level. Households with stronger credit standing and lower leverage actively deleverage across multiple products, whereas some more vulnerable groups expand auto borrowing despite reducing other types of debt. These findings highlight balance-sheet repair, rather than spending, as a priority even among those with few resources.  By highlighting the varied ways different households and credit products respond to shifts in income, our study calls for more nuanced policy approaches that account for heterogeneity in both borrower characteristics and debt composition.
+abstract: We examine how household debt portfolios, aggregated to the ZIP code level, respond to local income shocks. Using a Bartik-style instrument for persistent income changes and a novel instrument based on shale oil discoveries for transitory shocks, we document that households, on aggregate, use positive income shocks to pay down debt. However, this aggregate response masks a stark bifurcation in financial strategy. The main point of consensus is high-interest credit card debt, which nearly all households prioritize repaying, but the divergence is most pronounced for mortgages and auto loans. Specifically, the deleveraging of total credit is driven by financially healthier households—those with high credit scores, high incomes, or low leverage—who aggressively target consumer debt via credit cards and auto loans. In contrast, financially constrained households often use the income windfall as a gateway to new auto credit, while simultaneously showing a strong propensity to pay down their largest liability, the mortgage. Our findings highlight that an income shock triggers balance-sheet repair for some and relaxes borrowing constraints for others, calling for more nuanced policy approaches that account for this deep heterogeneity.
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -82,7 +82,7 @@ slides: ""
 {{< jel "D14, D15, G51, H31" >}}
 
 {{% callout note %}}
-**Job Market Paper**
+**Job Market Paper** - Draft to be uploaded in October 2025
 {{% /callout %}}
 
 <!-- This research investigates how different types of households respond to income changes through their credit behavior, providing new insights into the transmission mechanisms of economic shocks and their implications for financial stability and monetary policy effectiveness.

@@ -27,7 +27,7 @@ publication_types: ["article"]
 # publication: "Working Paper"
 # publication_short: "Working Paper"
 
-abstract: This paper investigates the behavioural responses of wealthy individuals to a specific wealth tax in Belgium—the Annual Tax on Securities Accounts (ATSA). Unlike general net wealth taxes, ATSA targets the stock value of securities accounts above a defined threshold. Using high-quality individual-level banking data from BNP Paribas Fortis covering 4 million clients (2006–2023), we apply advanced bunching methods to identify taxpayer reactions near the tax thresholds. Preliminary results for the 2019 tax year reveal significant behavioural responses, with a bunching estimate of 2.2, corresponding to a remarkably high elasticity of 29.3. These findings suggest substantial avoidance behaviour, likely facilitated by the narrow tax base and asset reallocation opportunities. Ongoing analyses using non-parametric and dynamic bunching approaches aim to validate and refine these estimates, while forthcoming work will assess tax avoidance mechanisms using difference-in-differences designs. The study contributes to the literature by offering novel evidence on the efficiency and behavioural effects of taxing specific forms of financial wealth.
+abstract: We study the effect of a wealth tax on financial assets of the top 5% wealthiest individuals in Belgium between 2018-2019 – imposing a 0.15% tax rate above 500,000€. Using a unique individual banking data, this paper provides the first scientific evidence on the behavioural answers to specific assets. To do so, we employ three different bunching designs; two static approaches- parametric and non-parametric- and a dynamic bunching model. Our first findings, based on the two static approaches, reveals that taxpayers significantly react to the tax on securities in 2019, but not in 2018 (implementation year). We estimate an elasticity between 8.3 and 13.23, meaning that a 1% increase in the net-of-tax rate leads to a decrease between 8 and 13% in taxable securities in 2019. Taken together, these results seem to indicate a significant adjustment in taxpayers’ taxable securities. However, the dynamic approach - which isolates the response of individuals directly reacting to the threshold - does not reveal significant changes in taxable securities for most treated groups. One exception concerns taxpayers with taxable securities between 520,000€ and 530,000€; in this range, 4.9% exhibit bunching behaviour in 2019, with an average growth rate of 1.7 percentage points lower than the average growth rate in the control group. Nevertheless, additional tests are still required to confirm the conclusions drawn from the dynamic approach. The results of this study aim to contribute to the debate on the legitimacy of wealth taxes, as strong behavioural responses may erode fiscal revenues, thereby undermining the tax’s efficiency.
 
 
 
@@ -40,10 +40,7 @@ tags:
 - Tax avoidance
 - Securities accounts
 - Bunching estimation
-- Financial wealth
-- Tax elasticity
-- Belgium
-- "Work in Progress"
+
 
 # JEL Classification codes
 jel_codes:

@@ -10,7 +10,7 @@ main:
   - name: CV
     url: /uploads/resume.pdf
     weight: 11
-  - name: Papers
+  - name: Research
     url: /publication/
     weight: 12
   - name: Experience

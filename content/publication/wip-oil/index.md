@@ -30,13 +30,10 @@ abstract: This paper examines how global oil price shocks affect the US economy,
 tags:
 - Oil Price Shocks
 - Shale Oil
-- Regional Heterogeneity
-- Local Projections
-- Proxy-SVAR
-- Oil Supply News
 - Fracking
-- State-level Macroeconomics
-- "Work in Progress"
+- Regional Heterogeneity
+- Oil Supply News
+
 
 # JEL Classification codes
 jel_codes:

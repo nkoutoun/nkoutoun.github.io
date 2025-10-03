@@ -43,7 +43,19 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
-    id: papers
+    id: job-market-paper
+    content:
+      title: Job Market Paper
+      text: ""
+      filters:
+        folders:
+          - publication
+        featured_only: true
+        publication_type: "article"
+    design:
+      view: citation
+  - block: collection
+    id: published-papers
     content:
       title: Publications
       text: ""
@@ -55,14 +67,14 @@ sections:
     design:
       view: citation
   - block: collection
-    id: working-papers
+    id: work-in-progress
     content:
-      title: Working Papers / Work in Progress
+      title: Work in Progress
       text: ""
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
         publication_type: "article"
     design:
       view: citation
