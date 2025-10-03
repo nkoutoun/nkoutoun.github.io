@@ -52,48 +52,49 @@ profiles:
 
 interests:
   - Empirical Macroeconomics
-  - Household Economics and Finance
-  - Energy Economics
+  - Household Economics & Finance
+  - Energy Economics (Oil & Gas)
+  - Regional Economics
 
 education:
   - area: PhD in Economics (expected)
-    institution: Ghent University
+    institution: Ghent University, BE
     date_start: 2020-01-01
     date_end: 2026-12-31
     summary: |
       Assistant Academic Personnel; Research Group: Macroeconomics, Policy & Econometrics
-  - area: Opportunity Insights Data Lab
-    institution: Harvard University
+  - area: Visiting Scholar Opportunity Insights
+    institution: Harvard University, US
     date_start: 2023-08-01
     date_end: 2023-11-30
     summary: |
       Short term Visiting Scholar, hosted by Raj Chetty
-  - area: Darden School of Business
-    institution: University of Virginia
+  - area: Visiting Student at Darden School
+    institution: University of Virginia, US
     date_start: 2023-02-01
     date_end: 2023-07-31
     summary: |
       Short term Visiting Scholar, hosted by Daniel Murphy
   - area: M.Sc. in Economics and Business
-    institution: Erasmus University Rotterdam, Erasmus School of Economics
+    institution: Erasmus University Rotterdam, NL
     date_start: 2016-01-01
     date_end: 2018-12-31
     summary: |
-      Grade 7.6 - Financial Economics Specialization (60 ECTS)
-  - area: Bachelor's in Economics
-    institution: University of Macedonia, Thessaloniki, Greece
+      Financial Economics Specialization (60 ECTS)
+  - area: B.Sc. in Economics
+    institution: University of Macedonia, GR
     date_start: 2011-01-01
     date_end: 2015-12-31
     summary: |
-      Grade: 8.2 - Ranked at the top 4% student percentile (240 ECTS)
+      Ranked at the top 4% student percentile (240 ECTS)
 
 work:
   - position: Economist in Residence
     company_name: BNP Paribas Fortis
     company_url: 'https://www.bnpparibasfortis.be/'
     company_logo: ''
-    date_start: 2025-01-01
-    date_end: ''
+    date_start: 2021-06-01
+    date_end: 2025-08-31
     summary: |2-
       Conducting academic research within the 'Analytics & Artificial Intelligence' unit in the framework of a long-term collaboration with Ghent University. Goal: construct "Models for a Changing world" pushing the state-of-the-art in societal and banking relevant economic research.
   - position: Assistant Academic Personnel
@@ -103,7 +104,7 @@ work:
     date_start: 2020-02-01
     date_end: ''
     summary: |
-      Focus: Empirical Macroeconomics, Monetary Economics & Policy, Oil Markets, Macro-Finance, Inequality
+      Focus:  Empirical Macroeconomics, Household Finance,Energy Economics (Oil & Gas), Regional Economics
       
       Teaching Assistant:
       - Monetary Economics (2021-25)
@@ -117,7 +118,7 @@ work:
     date_end: 2019-12-31
     summary: |
       Contribution to risk management projects for Eurosystem's credit operations related to eligibility requirements, valuations and haircuts. Improvement of infrastructure and processes of the division.
-  - position: Money Markets and Liquidity Traineeship
+  - position: Market Operations Trainee (Money Markets and Liquidity Division)
     company_name: European Central Bank
     company_url: 'https://www.ecb.europa.eu/'
     company_logo: ''
@@ -125,15 +126,15 @@ work:
     date_end: 2019-05-31
     summary: |
       Testing, production & analysis of the new Euro Short-Term Rate (€STR), design & maintenance of reporting tools for Money Markets, data analysis of MM activity, analysis of bidding behavior for ECB's monetary policy operations, daily liquidity analysis.
-  - position: Debt Capital Markets Internship (Investment Grade Clients)
-    company_name: ING
+  - position: Investment Banking Intern (Debt Capital Markets Division)
+    company_name: ING Bank
     company_url: 'https://www.ing.com/'
     company_logo: ''
     date_start: 2018-02-01
     date_end: 2018-07-31
     summary: |
-      DCM deal execution, pitch preparation, pricing updates coordination, tailor-made bond issuance advice.
-  - position: EMEA Finance Assistant
+      DCM deal execution, pitch preparation, pricing updates coordination, tailor-made bond issuance advice to investment grade clients.
+  - position: Finance Intern (EMEA)
     company_name: Dolby Laboratories
     company_url: 'https://www.dolby.com/'
     company_logo: ''
@@ -141,8 +142,8 @@ work:
     date_end: 2017-07-31
     summary: |
       Accounts Payable management with SAP, cash clearing, KPI reporting, analysis and metrics.
-  - position: Management Consulting Internship
-    company_name: Q-PLAN INTERNATIONAL
+  - position: Management Consulting Intern
+    company_name: Q-plan International
     company_url: 'https://www.qplan.gr/'
     company_logo: ''
     date_start: 2015-06-01
@@ -191,59 +192,59 @@ skills:
       - name: Python
         description: 'Advanced'
         percent: 85
-        icon: code-bracket
-      - name: Oracle SQL
+        icon: brand/python
+      - name: Stata
         description: 'Advanced'
-        percent: 85
-        icon: code-bracket
-      - name: MATLAB
+        percent: 80
+        icon: calculator
+      - name: R
         description: 'Intermediate'
         percent: 70
-        icon: code-bracket
-      - name: Tableau
-        description: 'Advanced'
-        percent: 85
-        icon: chart-bar
-  - name: Statistical Software
+        icon: variable
+      - name: MATLAB
+        description: 'Intermediate'
+        percent: 50
+        icon: beaker
+  - name: Industry Software
     color: '#059669'
     color_border: '#10b981'
     items:
-      - name: Stata
-        description: 'Advanced'
-        percent: 90
-        icon: calculator
-      - name: EViews
-        description: 'Advanced'
-        percent: 85
-        icon: calculator
       - name: Bloomberg
         description: 'Advanced'
-        percent: 85
+        percent: 90
         icon: chart-bar
-      - name: DataStream
+      - name: Refinitiv
         description: 'Advanced'
         percent: 85
+        icon: chart-pie
+      - name: Enverus
+        description: 'Intermediate'
+        percent: 50
+        icon: cube
+      - name: Tableau
+        description: 'Intermediate'
+        percent: 50
         icon: chart-bar
   - name: Development Tools
     color: '#dc2626'
     color_border: '#ef4444'
     items:
       - name: GitHub
-        description: 'Intermediate'
-        percent: 70
-        icon: code-bracket
-      - name: Bitbucket
-        description: 'Intermediate'
-        percent: 70
-        icon: code-bracket
-      - name: LaTeX
         description: 'Advanced'
-        percent: 90
-        icon: document-text
-      - name: MS Office
+        percent: 80
+        icon: brands/github
+      - name: Oracle SQL
         description: 'Advanced'
-        percent: 95
-        icon: document-text
+        percent: 75
+        icon: circle-stack
+      - name: MS Azure
+        description: 'Intermediate'
+        percent: 60
+        icon: cloud        
+      - name: Cursor AI
+        description: 'Intermediate'
+        percent: 60
+        icon: cpu-chip
   - name: Language Skills
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -264,6 +265,8 @@ skills:
         description: 'B1'
         percent: 50
         icon: flag-germany
+
+
 
 
 # Awards.
@@ -306,4 +309,4 @@ activities:
 
 ## About Me
 
-I am a PhD candidate in Economics at Ghent University (expected 2026), focusing on Empirical Macroeconomics, Household Economics and Finance, and Energy Economics. My research has been published in the Journal of Macroeconomics and the African Review of Economics and Finance. My job market paper explores "The heterogeneous reactions of household credit to income shocks." I have been a Visiting Scholar at Harvard University's Opportunity Insights Data Lab (hosted by Raj Chetty) and the University of Virginia's Darden School of Business (hosted by Daniel Murphy). Previously, I worked at the European Central Bank in Frankfurt am Main, first as a trainee in Money Markets and Liquidity and later as a Risk Analyst in the Risk Strategy Division. I hold an M.Sc. in Economics and Business from Erasmus University Rotterdam and a Bachelor's in Economics from the University of Macedonia in Greece.
+I'm a final-year PhD candidate on the 2025–26 academic job market. My research maps aggregate shocks into household decisions and regional outcomes with credible identification, guided by a micro-to-macro approach that combines large-scale administrative data and causal inference. My job-market paper reveals a stark split in how U.S. households restructure debt after income windfalls. A defining feature of my doctoral work has been proactively securing innovative data by establishing partnerships with industry providers. I strive to publish open, reproducible tools to support my research.
