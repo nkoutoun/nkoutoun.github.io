@@ -275,20 +275,20 @@ skills:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Grant for Strategic Institutional Partnership (SIP)
-    date: '2023-01-01'
+    date: '2023-08-15'
     awarder: Ghent University
     summary: |
       Partnership with Harvard University
   - title: Grant for a long stay abroad
-    date: '2023-01-01'
+    date: '2023-02-01'
     awarder: Research Foundation – Flanders (FWO)
     summary: |
       Funding for research stay abroad
-  - title: 2017 CFA Program Access Scholarship
-    date: '2017-01-01'
-    awarder: CFA Institute
+  - title: Ph.D. Fellowship
+    date: '2020-02-01'
+    awarder: Ghent University
     summary: |
-      Scholarship for the CFA Program
+      Funding for doctoral studies
 
 # Activities and Positions of Responsibility
 activities:
