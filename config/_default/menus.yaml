@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: CV
-    url: /uploads/resume.pdf
+    url: /uploads/cv_koutounidis.pdf
     weight: 11
   - name: Research
     url: /publication/
