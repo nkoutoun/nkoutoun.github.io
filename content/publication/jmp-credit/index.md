@@ -82,7 +82,7 @@ slides: ""
 {{< jel "D14, D15, G51, H31" >}}
 
 {{% callout note %}}
-**Job Market Paper** - Draft to be uploaded in October 2025
+**Job Market Paper** - Draft will be uploaded in November 2025
 {{% /callout %}}
 
 <!-- This research investigates how different types of households respond to income changes through their credit behavior, providing new insights into the transmission mechanisms of economic shocks and their implications for financial stability and monetary policy effectiveness.
