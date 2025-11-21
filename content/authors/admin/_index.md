@@ -309,4 +309,6 @@ activities:
 
 ## About Me
 
-I'm a final-year PhD candidate on the 2025–26 academic job market. My research maps aggregate shocks into household decisions and regional outcomes with credible identification, guided by a micro-to-macro approach that combines large-scale administrative data and causal inference. My job-market paper reveals a stark split in how U.S. households restructure debt after income windfalls. A defining feature of my doctoral work has been proactively securing innovative data by establishing partnerships with industry providers. I strive to publish open, reproducible tools to support my research.
+I'm a final-year PhD candidate on the 2025–26 academic job market. My research maps aggregate shocks into household decisions and regional outcomes, guided by a micro-to-macro approach that combines large-scale administrative data and causal inference. My job-market paper reveals a stark split in how U.S. households restructure debt after income windfalls.
+
+My work bridges academic rigor with real-world application, drawing on my experience as an Economist in Residence at BNP Paribas Fortis, and as a risk analyst and market operations trainee at the European Central Bank, where I gained firsthand insight into monetary policy implementation. These roles were instrumental in securing the innovative industry partnerships that define my doctoral work. I strive to publish open, reproducible tools to support my research.
