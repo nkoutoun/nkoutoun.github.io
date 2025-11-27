@@ -1,22 +1,22 @@
 ---
-title: "Behavioural answers to top-financial wealth tax: evidence from Belgium"
+title: "When Wealth Taxes Don't Bite: Behavioral Responses to the Belgian Financial Wealth Tax"
 authors:
-- "Therese Bastin"
+- "Thérèse Bastin"
 - admin
+- "Milan van den Heuvel"
 - "Ilan Tojerow"
-- "Milan Van Den Heuvel"
 - "Constantine Yannelis"
 author_notes:
+- "Corresponding author"
 - ""
 - ""
 - ""
 - ""
-- ""
-date: "2025-08-06T00:00:00Z"
+date: "2025-11-21T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-06T00:00:00Z"
+publishDate: "2025-11-21T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,12 +27,11 @@ publication_types: ["article"]
 # publication: "Working Paper"
 # publication_short: "Working Paper"
 
-abstract: We study the effect of a wealth tax on financial assets of the top 5% wealthiest individuals in Belgium between 2018-2019 – imposing a 0.15% tax rate above 500,000€. Using a unique individual banking data, this paper provides the first scientific evidence on the behavioural answers to specific assets. To do so, we employ three different bunching designs; two static approaches- parametric and non-parametric- and a dynamic bunching model. Our first findings, based on the two static approaches, reveals that taxpayers significantly react to the tax on securities in 2019, but not in 2018 (implementation year). We estimate an elasticity between 8.3 and 13.23, meaning that a 1% increase in the net-of-tax rate leads to a decrease between 8 and 13% in taxable securities in 2019. Taken together, these results seem to indicate a significant adjustment in taxpayers’ taxable securities. However, the dynamic approach - which isolates the response of individuals directly reacting to the threshold - does not reveal significant changes in taxable securities for most treated groups. One exception concerns taxpayers with taxable securities between 520,000€ and 530,000€; in this range, 4.9% exhibit bunching behaviour in 2019, with an average growth rate of 1.7 percentage points lower than the average growth rate in the control group. Nevertheless, additional tests are still required to confirm the conclusions drawn from the dynamic approach. The results of this study aim to contribute to the debate on the legitimacy of wealth taxes, as strong behavioural responses may erode fiscal revenues, thereby undermining the tax’s efficiency.
-
-
+abstract: >
+  This paper studies the behavioural answers from taxpayers to a wealth tax on specific financial assets. Leveraging an unprecedented tax on the financially wealthiest individuals between 2018-2019 and a unique individual banking data, this paper provides the first scientific evidence on the answers to financial specific wealth tax. To do so, we employ three complementary bunching designs. The classical bunching method detects no significant bunching in 2017–2019. The advanced bunching method guarantees the absence of optimization frictions and shows that elasticity bounds for 2017 are highly sensitive to shape restrictions, whereas the bounds for 2018 (1.87–1.92) and 2019 (8.2–10.9) are more stable. However, estimates from the dynamic bunching approach indicate no significant reduction in the growth rate of taxable securities in any year, suggesting no behavioural response despite the elasticities obtained for 2018–2019. Overall, we find no evidence of statistically significant bunching behaviour in response to ATSA. This finding suggests that the ATSA was effective in raising fiscal revenues. It indicates that wealth taxes targeting fully measurable assets and relying on third-party reporting may generate fewer behavioural responses, even when the taxable base is relatively narrow and highly liquid - which could offer valuable guidance for policymakers in designing efficient wealth taxes.
 
 # Summary. An optional shortened abstract.
-summary: Analysis of behavioral responses to Belgium's wealth tax using administrative data, revealing portfolio adjustments and strategic responses by high-wealth individuals.
+summary: Using three complementary bunching methods and unique Belgian banking data, we find no evidence of significant behavioral responses to the wealth tax on securities accounts, suggesting that well-designed wealth taxes targeting measurable assets can be effective revenue instruments.
 
 tags:
 - Wealth taxation
