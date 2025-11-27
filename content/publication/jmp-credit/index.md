@@ -8,11 +8,11 @@ author_notes:
 - ""
 - ""
 - ""
-date: "2025-08-06T00:00:00Z"
+date: "2025-11-27T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-06T00:00:00Z"
+publishDate: "2025-11-27T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -23,7 +23,7 @@ publication_types: ["article"]
 # publication: "Working Paper"
 # publication_short: "Job Market Paper"
 
-abstract: We examine how household debt portfolios, aggregated to the ZIP code level, respond to local income shocks. Using a Bartik-style instrument for persistent income changes and a novel instrument based on shale oil discoveries for transitory shocks, we document that households, on aggregate, use positive income shocks to pay down debt. However, this aggregate response masks a stark bifurcation in financial strategy. The main point of consensus is high-interest credit card debt, which nearly all households prioritize repaying, but the divergence is most pronounced for mortgages and auto loans. Specifically, the deleveraging of total credit is driven by financially healthier households—those with high credit scores, high incomes, or low leverage—who aggressively target consumer debt via credit cards and auto loans. In contrast, financially constrained households often use the income windfall as a gateway to new auto credit, while simultaneously showing a strong propensity to pay down their largest liability, the mortgage. Our findings highlight that an income shock triggers balance-sheet repair for some and relaxes borrowing constraints for others, calling for more nuanced policy approaches that account for this deep heterogeneity.
+abstract: We study how household debt portfolios—aggregated at the ZIP code level—respond to local income shocks in the United States. We implement two separate identification strategies: (i) a Bartik-style instrument that shifts local earnings via national industry trends, and (ii) a novel instrument utilizing the timing and location of shale oil and gas well discoveries. Across both designs, positive income shocks are, on average, associated with deleveraging. This average, however, masks a sharp bifurcation in financial behavior. Deleveraging in total credit is driven by financially healthier households—those with higher credit scores, higher incomes, or lower leverage—who restrain the growth of credit-card and auto debt. In contrast, financially vulnerable households often treat the windfall as a gateway to new auto credit while still deleveraging credit-card and typically mortgage debt. Looking at mixed-profile households, we find strong mortgage leveraging among households with high income and high debt or low credit scores. These results show that the same income shock can trigger balance-sheet repair for some households and additional leverage for others—varying by both borrower type and debt category—underscoring substantial underlying heterogeneity and highlighting barriers to broad-based financial stability.
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -48,7 +48,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'uploads/jmp_koutounidis.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -80,26 +80,3 @@ slides: ""
 ---
 
 {{< jel "D14, D15, G51, H31" >}}
-
-{{% callout note %}}
-**Job Market Paper** - Draft will be uploaded in November 2025
-{{% /callout %}}
-
-<!-- This research investigates how different types of households respond to income changes through their credit behavior, providing new insights into the transmission mechanisms of economic shocks and their implications for financial stability and monetary policy effectiveness.
-
-## Key Research Questions
-
-1. **Heterogeneity**: How do household characteristics influence credit responses to income shocks?
-2. **Mechanisms**: What are the underlying mechanisms driving these differential responses?
-3. **Policy Implications**: How do these findings inform financial stability and monetary policy?
-
-## Methodology
-
-- **Data**: Household-level credit and income data
-- **Approach**: Empirical analysis of credit adjustment patterns
-- **Period**: Recent years covering various economic conditions
-- **Sample**: Comprehensive household sample with detailed characteristics
-
-## Preliminary Findings
-
-The analysis reveals significant heterogeneity in how households adjust their credit usage in response to income shocks, with important implications for understanding financial stability and the effectiveness of monetary policy transmission. -->
