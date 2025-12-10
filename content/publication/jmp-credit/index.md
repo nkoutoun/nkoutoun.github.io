@@ -81,3 +81,20 @@ slides: ""
 ---
 
 {{< jel "D14, D15, G51, H31" >}}
+
+## Interactive Visualization: Bartik Instrument
+
+The map below shows cross-sectional variation in our Bartik (shift-share) instrument across US counties. The instrument predicts local earnings shocks based on national industry trends weighted by each county's pre-period industry composition.
+
+{{< rawhtml >}}
+<div style="position:relative; left:50%; transform:translateX(-50%); width:95vw; max-width:1200px;">
+<iframe 
+    src="/html/bartik_map_2010.html" 
+    width="100%" 
+    height="800" 
+    frameborder="0"
+    scrolling="no"
+    style="border:none; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.12);">
+</iframe>
+</div>
+{{< /rawhtml >}}
