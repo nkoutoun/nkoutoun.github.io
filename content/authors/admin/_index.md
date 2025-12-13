@@ -2,6 +2,9 @@
 # Display name
 title: Nikolaos Koutounidis
 
+# URL slug (optional - defaults to folder name)
+slug: nikolaos-koutounidis
+
 # Name pronunciation (optional)
 name_pronunciation: 
 
