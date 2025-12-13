@@ -14,9 +14,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Personal academic website of Nikolaos Koutounidis, PhD candidate in Economics at Ghent University. Research in empirical macroeconomics, household finance, and regional economics.'
+    twitter: 'NickKoutounidis'
     site_name: 'Nikolaos Koutounidis'
+    image: 'author/nikolaos-koutounidis/avatar.jpg'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
