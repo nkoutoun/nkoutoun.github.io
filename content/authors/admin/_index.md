@@ -80,14 +80,14 @@ education:
       Short term Visiting Scholar, hosted by Daniel Murphy
   - area: M.Sc. in Economics and Business
     institution: Erasmus University Rotterdam, NL
-    date_start: 2016-01-01
-    date_end: 2018-12-31
+    date_start: 2016-09-01
+    date_end: 2018-10-18
     summary: |
       Financial Economics Specialization (60 ECTS)
   - area: B.Sc. in Economics
     institution: University of Macedonia, GR
-    date_start: 2011-01-01
-    date_end: 2015-12-31
+    date_start: 2011-09-01
+    date_end: 2015-11-08
     summary: |
       Ranked at the top 4% student percentile (240 ECTS)
 
@@ -96,7 +96,7 @@ work:
     company_name: BNP Paribas Fortis
     company_url: 'https://www.bnpparibasfortis.be/'
     company_logo: ''
-    date_start: 2021-06-01
+    date_start: 2021-04-01
     date_end: 2025-08-31
     summary: |2-
       Conducting academic research within the 'Analytics & Artificial Intelligence' unit in the framework of a long-term collaboration with Ghent University. Goal: construct "Models for a Changing world" pushing the state-of-the-art in societal and banking relevant economic research.
@@ -125,7 +125,7 @@ work:
     company_name: European Central Bank
     company_url: 'https://www.ecb.europa.eu/'
     company_logo: ''
-    date_start: 2019-02-01
+    date_start: 2018-08-15
     date_end: 2019-05-31
     summary: |
       Testing, production & analysis of the new Euro Short-Term Rate (€STR), design & maintenance of reporting tools for Money Markets, data analysis of MM activity, analysis of bidding behavior for ECB's monetary policy operations, daily liquidity analysis.
@@ -133,15 +133,15 @@ work:
     company_name: ING Bank
     company_url: 'https://www.ing.com/'
     company_logo: ''
-    date_start: 2018-02-01
-    date_end: 2018-07-31
+    date_start: 2017-12-01
+    date_end: 2018-05-31
     summary: |
       DCM deal execution, pitch preparation, pricing updates coordination, tailor-made bond issuance advice to investment grade clients.
   - position: Finance Intern (EMEA)
     company_name: Dolby Laboratories
     company_url: 'https://www.dolby.com/'
     company_logo: ''
-    date_start: 2017-02-01
+    date_start: 2017-05-01
     date_end: 2017-07-31
     summary: |
       Accounts Payable management with SAP, cash clearing, KPI reporting, analysis and metrics.
@@ -149,8 +149,8 @@ work:
     company_name: Q-plan International
     company_url: 'https://www.qplan.gr/'
     company_logo: ''
-    date_start: 2015-06-01
-    date_end: 2015-08-31
+    date_start: 2015-02-01
+    date_end: 2015-07-31
     summary: |
       Provision of business development services to the private sector (strategy, financial, marketing studies) on behalf of the European Commission.
 
