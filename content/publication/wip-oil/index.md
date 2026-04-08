@@ -1,16 +1,16 @@
 ---
-title: "Global Oil Price Shocks Effects on the US Economy: The Role of Cross-State Heterogeneity in Shale Oil Production Levels"
+title: "Not All States Are Alike: Oil Supply Shocks and the Shale Cushion in the U.S. Economy"
 authors:
 - "Selien De Schryder"
 - admin
 author_notes:
 - ""
 - ""
-date: "2025-08-06T00:00:00Z"
+date: "2026-04-08T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-06T00:00:00Z"
+publishDate: "2026-04-08T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -21,27 +21,27 @@ publication_types: ["article"]
 # publication: "Working Paper"
 # publication_short: "Working Paper"
 
-abstract: This paper examines how global oil price shocks affect the US economy, focusing on heterogeneity driven by state-level shale oil production. Using an LP-IV model on state-level data (2005-2023) and an oil supply news shock, we assess impacts on economic conditions and unemployment. Our very preliminary results suggest a positive oil supply news shock negatively impacts aggregate US economic conditions and employment. While conventional oil production levels show little difference in state responses, we observe some heterogeneity based on shale production, where these negative effects appear more muted. This research highlights the importance of regional factors in assessing oil market dynamics, though further validation is essential.
+abstract: Does the composition of local oil and gas production shape how global oil supply shocks propagate through U.S. state economies? Using a novel monthly panel that decomposes well-level output into shale and conventional components for U.S. states over 1990--2024, we estimate panel local projections interacted with state-level production shares. States with a larger shale share experience significantly milder employment and economic conditions contractions following an adverse oil supply news shock, whereas the conventional share generates no differential effect. This buffering operates entirely through non-mining employment---consistent with local multiplier channels rather than direct extraction jobs---and spills over to manufacturing-intensive non-producing states via supply-chain linkages. The dominant source of nonlinearity is the prevailing price level: contractionary effects concentrate in low-price environments, when shale producers operate near breakeven. Together, these results help reconcile conflicting findings on whether the shale revolution altered the macroeconomic transmission of oil shocks.
 
 
 # Summary. An optional shortened abstract.
 # summary: Analysis of how oil price shocks affect the US economy heterogeneously based on cross-state differences in shale oil production.
 
 tags:
-- Oil Price Shocks
-- Shale Oil
-- Fracking
-- Regional Heterogeneity
-- Oil Supply News
+- Oil Supply Shocks
+- Shale Oil and Gas
+- Local Projections
+- State-Level Heterogeneity
+- U.S. Macroeconomy
 
 
 # JEL Classification codes
 jel_codes:
+- "C33"  # Panel Data Models; Spatio-temporal Models
 - "E32"  # Business Fluctuations; Cycles
+- "Q33"  # Resource Booms and Busts
 - "Q43"  # Energy and the Macroeconomy
 - "R11"  # Regional Economic Activity: Growth, Development, Environmental Issues, and Changes
-- "C33"  # Panel Data Models; Spatio-temporal Models
-- "Q35"  # Hydrocarbon Resources (Shale Oil and Gas)
 
 featured: false
 
@@ -79,5 +79,7 @@ projects: []
 slides: ""
 ---
 
-{{< jel "E32, Q43, R11, C33, Q35" >}}
+{{< jel "C33, E32, Q33, Q43, R11" >}}
+
+*A working paper version will be posted in the coming months.*
 

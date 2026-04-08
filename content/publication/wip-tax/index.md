@@ -1,5 +1,5 @@
 ---
-title: "When Wealth Taxes Don't Bite: Behavioral Responses to the Belgian Financial Wealth Tax"
+title: "When Wealth Taxes Don't Bite: Behavioural Responses to the Belgian Asset-Specific Wealth Tax"
 authors:
 - "Thérèse Bastin"
 - admin
@@ -12,11 +12,11 @@ author_notes:
 - ""
 - ""
 - ""
-date: "2025-11-21T00:00:00Z"
+date: "2026-04-08T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-11-21T00:00:00Z"
+publishDate: "2026-04-08T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,7 +28,7 @@ publication_types: ["article"]
 # publication_short: "Working Paper"
 
 abstract: >
-  This paper studies the behavioural answers from taxpayers to a wealth tax on specific financial assets. Leveraging an unprecedented tax on the financially wealthiest individuals between 2018-2019 and a unique individual banking data, this paper provides the first scientific evidence on the answers to financial specific wealth tax. To do so, we employ three complementary bunching designs. The classical bunching method detects no significant bunching in 2017–2019. The advanced bunching method guarantees the absence of optimization frictions and shows that elasticity bounds for 2017 are highly sensitive to shape restrictions, whereas the bounds for 2018 (1.87–1.92) and 2019 (8.2–10.9) are more stable. However, estimates from the dynamic bunching approach indicate no significant reduction in the growth rate of taxable securities in any year, suggesting no behavioural response despite the elasticities obtained for 2018–2019. Overall, we find no evidence of statistically significant bunching behaviour in response to ATSA. This finding suggests that the ATSA was effective in raising fiscal revenues. It indicates that wealth taxes targeting fully measurable assets and relying on third-party reporting may generate fewer behavioural responses, even when the taxable base is relatively narrow and highly liquid - which could offer valuable guidance for policymakers in designing efficient wealth taxes.
+  This paper examines taxpayers' behavioural responses to an asset-specific wealth tax. Leveraging the introduction of Belgium's Annual Tax on Securities Accounts (ATSA) and unique individual-level banking data, we provide the first evidence on the behavioural effects of a financial asset-specific wealth tax. Using a dynamic bunching method, we find no statistically significant evidence that taxpayers near the threshold reduced their taxable securities to avoid the tax, suggesting the absence of extensive margin responses. An event-study design further reveals that, while aggregate taxable securities remain unaffected, treated taxpayers selectively reallocate their portfolios. In particular, they reduce holdings in low-return and low-transaction-cost assets, as reflected in the decline in bond holdings of approximately 22%, as well as in other low-transaction-cost assets such as shares, whose holdings fall by about 12%. Taken together, these findings suggest that wealth taxes targeting fully observable assets and relying on third-party reporting may substantially limit avoidance behaviour, even when the taxable base is relatively narrow and highly liquid - which could offer valuable guidance for policymakers in designing efficient wealth taxes.
 
 # Summary. An optional shortened abstract.
 summary: Using three complementary bunching methods and unique Belgian banking data, we find no evidence of significant behavioral responses to the wealth tax on securities accounts, suggesting that well-designed wealth taxes targeting measurable assets can be effective revenue instruments.
@@ -85,3 +85,5 @@ slides: ""
 ---
 
 {{< jel "H24, H26, D31, C21, E62" >}}
+
+*A working paper version will be posted in the coming months.*
