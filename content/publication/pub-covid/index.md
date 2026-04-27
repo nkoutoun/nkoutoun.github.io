@@ -90,7 +90,7 @@ slides: ""
 Explore the data interactively with the COVID-19 Belgium dashboard:
 
 <div style="margin: 2rem -12rem; width: calc(100% + 24rem); max-width: none;">
-<iframe src="https://covid-belgium-dashboard.onrender.com" 
+<iframe src="/html/covid_belgium_dashboard.html"
         width="100%" 
         height="900" 
         style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"
