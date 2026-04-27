@@ -43,12 +43,12 @@ featured: false
 
 links:
 - name: "Interactive Dashboard"
-  url: 'https://covid-belgium-dashboard.onrender.com/'
+  url: '/html/covid_belgium_dashboard.html'
   icon: chart-bar
   icon_pack: fas
 url_pdf: ''
-url_code: 'https://github.com/nkoutoun/covid_paper.git'
-url_dataset: 'https://covid-belgium-dashboard.onrender.com/'
+url_code: 'https://github.com/nkoutoun/covid_paper'
+url_dataset: 'https://github.com/nkoutoun/covid_paper/tree/main/data'
 url_poster: ''
 url_project: ''
 url_slides: ''
