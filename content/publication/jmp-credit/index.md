@@ -84,17 +84,87 @@ slides: ""
 
 ## Interactive Visualization: Bartik Instrument
 
-The map below shows cross-sectional variation in our Bartik (shift-share) instrument across US counties. The instrument predicts local earnings shocks based on national industry trends weighted by each county's pre-period industry composition.
+The map below shows variation in our Bartik (shift-share) instrument across US counties from 2005 to 2020. The instrument predicts local earnings shocks based on national industry trends weighted by each county's pre-period industry composition.
 
 {{< rawhtml >}}
 <div style="position:relative; left:50%; transform:translateX(-50%); width:95vw; max-width:1200px;">
 <iframe 
-    src="/html/bartik_map_2010.html" 
+    class="autosize-iframe"
+    src="/html/bartik_map.html" 
     width="100%" 
-    height="800" 
+    height="900" 
     frameborder="0"
     scrolling="no"
-    style="border:none; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.12);">
+    style="border:none; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.12); display:block;">
 </iframe>
 </div>
+{{< /rawhtml >}}
+
+## Interactive Visualization: Credit Response to Local Income Shocks
+
+The heatmaps below summarize how household credit responds to local income shocks across borrower segments and debt categories, revealing the bifurcation between deleveraging and additional borrowing documented in the paper.
+
+{{< rawhtml >}}
+<div style="position:relative; left:50%; transform:translateX(-50%); width:95vw; max-width:1200px;">
+<iframe 
+    class="autosize-iframe"
+    src="/html/heatmaps.html" 
+    width="100%" 
+    height="900" 
+    frameborder="0"
+    scrolling="no"
+    style="border:none; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.12); display:block;">
+</iframe>
+</div>
+
+<script>
+(function () {
+  function autosize(iframe) {
+    function neutralizeFlex(doc) {
+      if (!doc || !doc.body) return;
+      doc.body.style.minHeight = '0';
+      doc.body.style.display = 'block';
+      doc.documentElement.style.minHeight = '0';
+    }
+    function measure(doc) {
+      if (!doc) return 0;
+      var de = doc.documentElement, b = doc.body;
+      return Math.max(
+        de ? de.scrollHeight : 0,
+        de ? de.offsetHeight : 0,
+        b ? b.scrollHeight : 0,
+        b ? b.offsetHeight : 0
+      );
+    }
+    function update() {
+      try {
+        var doc = iframe.contentDocument;
+        if (!doc) return;
+        neutralizeFlex(doc);
+        var h = measure(doc);
+        if (h > 0) iframe.style.height = h + 'px';
+      } catch (e) {}
+    }
+    iframe.addEventListener('load', function () {
+      update();
+      try {
+        var doc = iframe.contentDocument;
+        if (doc && doc.body && 'ResizeObserver' in window) {
+          var ro = new ResizeObserver(update);
+          ro.observe(doc.body);
+          ro.observe(doc.documentElement);
+        }
+      } catch (e) {}
+      // Bundled visualizations unpack asynchronously — keep checking for a while.
+      var ticks = 0;
+      var t = setInterval(function () {
+        update();
+        if (++ticks > 60) clearInterval(t); // 30s
+      }, 500);
+    });
+    window.addEventListener('resize', update);
+  }
+  document.querySelectorAll('iframe.autosize-iframe').forEach(autosize);
+})();
+</script>
 {{< /rawhtml >}}

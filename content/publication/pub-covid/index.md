@@ -89,17 +89,69 @@ slides: ""
 
 Explore the data interactively with the COVID-19 Belgium dashboard:
 
-<div style="margin: 2rem -12rem; width: calc(100% + 24rem); max-width: none;">
-<iframe src="/html/covid_belgium_dashboard.html"
+<div style="position:relative; left:50%; transform:translateX(-50%); width:95vw; max-width:1200px;">
+<iframe class="autosize-iframe"
+        src="/html/covid_belgium_dashboard.html"
         width="100%" 
         height="900" 
-        style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"
+        scrolling="no"
+        style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); display:block;"
         title="COVID-19 Belgium Consumption Dashboard">
 </iframe>
 <p style="font-style: italic; text-align: center; margin-top: 0.5rem; color: #6b7280; font-size: 0.875rem;">
 <strong>Interactive Dashboard:</strong> Explore the heterogeneous impact of COVID-19 on consumption patterns across Belgian households.
 </p>
 </div>
+
+<script>
+(function () {
+  function autosize(iframe) {
+    function neutralizeFlex(doc) {
+      if (!doc || !doc.body) return;
+      doc.body.style.minHeight = '0';
+      doc.body.style.display = 'block';
+      doc.documentElement.style.minHeight = '0';
+    }
+    function measure(doc) {
+      if (!doc) return 0;
+      var de = doc.documentElement, b = doc.body;
+      return Math.max(
+        de ? de.scrollHeight : 0,
+        de ? de.offsetHeight : 0,
+        b ? b.scrollHeight : 0,
+        b ? b.offsetHeight : 0
+      );
+    }
+    function update() {
+      try {
+        var doc = iframe.contentDocument;
+        if (!doc) return;
+        neutralizeFlex(doc);
+        var h = measure(doc);
+        if (h > 0) iframe.style.height = h + 'px';
+      } catch (e) {}
+    }
+    iframe.addEventListener('load', function () {
+      update();
+      try {
+        var doc = iframe.contentDocument;
+        if (doc && doc.body && 'ResizeObserver' in window) {
+          var ro = new ResizeObserver(update);
+          ro.observe(doc.body);
+          ro.observe(doc.documentElement);
+        }
+      } catch (e) {}
+      var ticks = 0;
+      var t = setInterval(function () {
+        update();
+        if (++ticks > 60) clearInterval(t);
+      }, 500);
+    });
+    window.addEventListener('resize', update);
+  }
+  document.querySelectorAll('iframe.autosize-iframe').forEach(autosize);
+})();
+</script>
 
 <!-- This research provides novel insights into the heterogeneous economic effects of the COVID-19 pandemic using granular household-level transaction data. The findings have important implications for understanding crisis responses and designing targeted policy interventions.
 

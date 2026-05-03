@@ -1,5 +1,5 @@
 ---
-title: "Not All States Are Alike: Oil Supply Shocks and the Shale Cushion in the U.S. Economy"
+title: "Shale Production and the Transmission of Oil Supply Shocks: Evidence from U.S. States"
 authors:
 - "Selien De Schryder"
 - admin

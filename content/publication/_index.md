@@ -3,6 +3,10 @@ title: Publications
 cms_exclude: true
 type: landing
 
+# Hide the Backlinks section in the right sidebar on every publication page.
+cascade:
+  backlinks: false
+
 design:
   spacing: "1rem"
 
